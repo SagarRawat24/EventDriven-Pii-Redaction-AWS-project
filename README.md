@@ -29,6 +29,11 @@
 
 ##
 
+### 🔍 Architecture Diagram 
+
+<img width="1288" height="708" alt="latestarchitecture" src="https://github.com/user-attachments/assets/5e7d7e34-60c5-4efc-8dca-9ebbb0a4e7e2" />
+
+
 ### 💡AWS-Services
 
 - AWS Lambda: Handles the processing of uploaded resumes, including scanning for PII using regex and redacting information using PyMuPDF. It provides scalable, serverless computing without the need for infrastructure management.

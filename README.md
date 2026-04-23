@@ -8,7 +8,7 @@ Project Overview: This project aims to automate the process of redacting persona
 
 ##
 
-## AWS-Services
+# AWS-Services
 AWS Lambda: Handles the processing of uploaded resumes, including scanning for PII using regex and redacting information using PyMuPDF. It provides scalable, serverless computing without the need for infrastructure management.
 
 Amazon S3: Serves as the storage location for both the original resumes and the redacted versions. Users upload resumes to S3, and the processed redacted documents are also saved in S3.

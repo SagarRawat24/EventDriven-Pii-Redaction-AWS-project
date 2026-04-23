@@ -39,9 +39,7 @@
 ### Clone the Project 
 
 ```
-cd frotend
-
-
+https://github.com/SagarRawat24/EventDriven-Pii-Redaction-AWS-project.git
 ```
 
 ### Setup Env Variable for Frontend 
@@ -56,9 +54,7 @@ NEXT_PUBLIC_API_URL= "your backend url"
 
 ```
 cd frotend
-
 npm run dev 
-
 ```
 
 
@@ -78,7 +74,6 @@ PORT= "backend port"
 ```
 cd Backend
 node index.js
-
 ```
 
 

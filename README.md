@@ -53,7 +53,7 @@ NEXT_PUBLIC_API_URL= "your backend url"
 ### Frontend 
 
 ```
-cd frotend
+cd frontend
 npm run dev 
 ```
 
@@ -72,7 +72,7 @@ PORT= "backend port"
 ### Backend 
 
 ```
-cd Backend
+cd backend
 node index.js
 ```
 

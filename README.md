@@ -34,16 +34,51 @@
 <img width="1288" height="708" alt="latestarchitecture" src="https://github.com/user-attachments/assets/5e7d7e34-60c5-4efc-8dca-9ebbb0a4e7e2" />
 
 
-### 💡AWS-Services
+### 💻 How to Run the Project 
 
-- AWS Lambda: Handles the processing of uploaded resumes, including scanning for PII using regex and redacting information using PyMuPDF. It provides scalable, serverless computing without the need for infrastructure management.
+### Clone the Project 
 
-- Amazon S3: Serves as the storage location for both the original resumes and the redacted versions. Users upload resumes to S3, and the processed redacted documents are also saved in S3.
+```
+cd frotend
 
-- AWS SDK: Use AWS SDK for nodejs  to interact with aws services programitically and implement logic and feaure easily
 
-- PyMuPDF and Regex: PyMuPDF is used to manipulate PDF files, while regular expressions (regex) are employed to detect PII, including phone numbers and email addresses. These are then redacted from the resumes before the final document is stored in S3.
+```
 
-- AWS IAM (Identity and Access Management): Controls access to AWS services by assigning permissions to users, Lambda functions, and S3 buckets. IAM ensures that only authenticated and authorized users can access specific resources and services.
+### Setup Env Variable for Frontend 
 
-- AWS CloudWatch: Provides monitoring and logging capabilities. CloudWatch logs are used to track the execution of Lambda functions, capture any errors during redaction, and monitor overall system performance.
+```
+NEXT_PUBLIC_API_URL= "your backend url"
+```
+
+ 
+
+### Frontend 
+
+```
+cd frotend
+
+npm run dev 
+
+```
+
+
+### Setup Env Variable for Backend 
+
+```
+AWS_ACCESS_KEY_ID= your aws access key
+AWS_SECRET_ACCESS_KEY=  your aws secert key
+AWS_REGION= "your aws region"
+S3_BUCKET_NAME=" upload pdf bucket name"
+S3_DEST_BUCKET= "destination bucket name"
+PORT= "backend port"
+```
+
+### Backend 
+
+```
+cd Backend
+node index.js
+
+```
+
+
